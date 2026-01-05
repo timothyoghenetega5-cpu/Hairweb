@@ -1,0 +1,45 @@
+/* SHOW HAMBURGER ON PHONE, HIDE DESKTOP NAV */
+@media screen and (max-width: 1024px) {
+
+    #desktop-nav {
+        display: flex;
+    }
+
+    #hamburger-nav {
+        display: none;
+    }
+
+	.nav-links{
+			gap: 1rem;
+			font-size: 1.2rem;
+			color: red;
+		}
+
+	
+}
+
+@media screen and (max-width: 768px) {
+
+    #desktop-nav {
+        display: none;
+    }
+
+    #hamburger-nav {
+        display: flex;
+    }
+
+	
+}
+
+@media screen and (max-width: 768px) {
+
+    #desktop-nav {
+        display: none;
+    }
+
+    #hamburger-nav {
+        display: flex;
+    }
+
+	
+}
